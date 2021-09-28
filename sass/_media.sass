@@ -1,0 +1,727 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+@media only screen and (max-width : 1800px)
+	.jumbotron-nav
+		display: none
+	.sertificates-wrapper .slick-next
+		right: 20px
+	.sertificates-wrapper .slick-prev
+		left: 20px
+	.jumbotron-title
+		margin-top: 0
+	.jumbotron-bg__animation
+		left: 1090px
+		height: 100%
+		img
+			height: 100%
+			width: 100%
+			object-fit: cover
+	.jumbotron-bg__image
+		right: unset
+		left: 900px
+	.jumbotron-person
+		right: unset
+		left: 1150px
+@media only screen and (max-width : 1600px)
+	.services-slider__nav--item .services-slider__image
+		width: 560px
+		height: 560px
+	.services-slider__title
+		margin-bottom: 40px
+	.services-slider__nav--item .services-slider__content
+		width: calc(100% - 600px)
+		margin-left: 600px
+	.services-item__content
+		padding: 4vw
+@media only screen and (max-width : 1439px)
+	.services-item__content
+		padding: 3vw
+	.services-item__title
+		font-size: 1.25rem
+	.services-item__description
+		font-size: 0.8rem
+	.jumbotron-bg__animation
+		left: 900px
+		height: 100%
+		img
+			height: 100%
+			width: 100%
+			object-fit: cover
+	.jumbotron-bg__image
+		right: unset
+		left: 700px
+	.jumbotron-person
+		right: unset
+		left: 950px
+	.history-wrapper::before,
+	.history-wrapper::after
+		display: none
+	.services-slider__nav--item .services-slider__image
+		width: 420px
+		height: 420px
+	.services-slider__title
+		margin-bottom: 20px
+	.services-slider__nav--item .services-slider__content
+		width: calc(100% - 460px)
+		margin-left: 460px
+	.services-slider__nav--item
+		height: 480px
+	.services-slider__nav--wrapper
+		min-height: 480px
+	.services-slider__content--inner
+		margin-bottom: 20px
+	.services-slider__nav--wrapper .slick-next
+		right: 10px
+	.services-slider__nav--wrapper .slick-prev
+		left: 10px
+@media only screen and (max-width : 1199px)	
+	.footer .footer-studio
+		right: 10px
+		width: 65px
+	.projects-item
+		width: calc(100% / 3 - 10px)
+	.jumbotron-bg__animation
+		left: 700px
+		height: 100%
+		img
+			height: 100%
+			width: 100%
+			object-fit: cover
+	.jumbotron-bg__image
+		right: unset
+		left: 750px
+		img
+			max-width: 250px
+	.jumbotron-person
+		right: unset
+		left: 750px
+	.services-slider__content--inner
+		padding-right: 10px
+		font-size: 1rem
+	.services-slider__title
+		font-size: 2.1rem
+@media only screen and (max-width : 991px)
+	.content .content-col
+		margin-bottom: 20px
+	.main-news
+		margin-top: 0
+	.project-slider
+		margin-top: 10px
+	.belcom, .content, .accordion
+		margin: 60px 0
+	.table-wrapper
+		overflow-x: scroll
+	.news-inner-hero,
+	.contact-hero,
+	.category-hero, .category-inner-hero
+		padding: 120px 0 60px 0
+	.category-hero__back
+		margin-bottom: 20px
+	.category-hero__box
+		padding: 20px
+	.category-hero__description
+		margin-bottom: 0
+	.project-values
+		flex-direction: column
+		margin-top: 20px
+	.accordion-item__title
+		padding-left: 30px
+	.accordion-item__title::before
+		left: -5px
+	.accordion-item__title::after
+		left: 5px
+	.project-value
+		margin-bottom: 20px
+		&:last-child
+			margin-bottom: 0
+	.h6, h6
+		font-size: .8rem
+	.category-hero__subtitle
+		margin-bottom: 20px
+	.category .section-wrapper
+		padding: 0 15px
+	.category+.contact
+		padding-top: 330px
+	.category-item__title
+		font-size: 1.2rem!important
+	.category-hero, .category-inner-hero
+		min-height: unset
+	.category-hero .main-btn, .category-inner-hero .main-btn
+		margin-top: 30px
+	.treatment-hero .main-btn
+		margin-top: 20px
+		width: 100%
+		max-width: 300px
+	.treatment-hero .main-btn+.main-btn,
+	.category-hero .main-btn+.main-btn, .category-inner-hero .main-btn+.main-btn
+		margin-left: 0
+		border-left: 1px solid #fff!important
+		&:hover
+			border-left: 1px solid $accent!important
+	.category-hero__image
+		margin-top: 30px
+	.category-item
+		width: 100%!important
+		position: relative
+		overflow: hidden
+		padding: 20px
+		min-height: 300px
+		margin: 0!important
+		margin-bottom: 20px!important
+	.category-item__title
+		margin-bottom: 20px
+	.category-item__description
+		margin-bottom: 20px
+	.project-slider__item.slick-active
+		&::after
+			opacity: 0
+		&::before
+			opacity: 1
+		img
+			filter: grayscale(0)
+	.map
+		height: 300px
+	.content .content-row
+		margin-bottom: 60px
+	.h3, h3
+		font-size: 1.5625rem
+	.honor-desk
+		margin-bottom: 0
+	.management-slider
+		.slick-list
+			height: 100%
+			.slick-track
+				height: 100%
+	.management-slider + .jumbotron-nav + .section-wrapper
+		.slider-counter .slider-counter__range
+			right: -15px
+		.hero-slider__main
+			padding-top: 40px
+	.management-btn
+		margin-right: auto
+		margin-left: 15px
+	.services-box
+		width: 100%
+		display: flex
+		flex-wrap: nowrap
+		flex-direction: row
+		.services-row
+			width: 50%
+			margin-top: 0!important
+			.services-item
+				width: 100%
+				height: 50vw
+	.services-title
+		margin-bottom: 20px
+
+	.services-row, .services-col
+		width: 100%
+		flex-direction: column
+		.services-item
+			width: 50%
+			height: 50vw
+			.services-item__image
+				position: absolute
+				top: 0
+				left: 0
+				width: 100%
+				height: 100%
+				&::after
+					content: ''
+					position: absolute
+					top: 0
+					left: 0
+					width: 100%
+					height: 100%
+					display: block
+					background-color: #323436
+					opacity: 0.85
+					z-index: 0
+					transition: all .3s ease
+			.services-item__content
+				position: relative
+				z-index: 2
+				width: 100%
+				height: 100%
+	.services-col
+		width: 100%
+		.services-item
+			width: 50%
+			margin-left: auto
+	.services-row
+		&:last-child
+			margin-top: -50vw
+	.contact
+		padding: 60px 0
+		background: none
+	h4,.h4
+		font-size: 1.5625rem
+	h5,.h5
+		font-size: 1rem
+	.contact-description
+		margin-bottom: 25px
+	.projects-hero+.projects
+		margin-bottom: 60px
+	.contact-form .form-group img
+		margin-top: 0
+	.projects-hero
+		padding-top: 133px
+	.h2, h2
+		font-size: 1.875rem
+	.projects-hero__filter ul li
+		font-size: 1rem
+		margin-right: 18px
+	.projects-item
+		width: calc(100% / 2 - 10px)
+	.jumbotron-values
+		flex-wrap: wrap
+		margin-top: 20px
+	.jumbotron-values__item
+		margin-bottom: 20px
+		width: 100%
+		align-items: center
+		span
+			width: 110px
+			text-align: right
+			margin-right: 15px
+			font-size: 50px
+	.history-title
+		width: 100%
+		margin: 0 auto
+		max-width: 100%
+		flex: unset
+		flex-direction: column
+	.history-wrapper
+		overflow: visible
+	.history-item
+		margin: 0
+	.history-wrapper .slick-prev
+		left: 0
+		top: -70px
+	.history-wrapper .slick-next
+		right: 0
+		top: -70px
+	.hero-slider__nav
+		display: none
+	.hero-slider__main .hero-slider__link
+		display: none
+	.hero-slider__main .hero-slider__subtitle
+		max-width: 100%
+	.hero
+		height: unset
+		min-height: 640px
+		position: relative
+		.container
+			padding-top: 40px
+			padding-bottom: 40px
+	.services-slider
+		margin: 0
+	.hero-video__link
+		bottom: 0
+		margin-top: 50px
+	.hero-slider__main .hero-slider__title
+		font-size: 1.875rem
+		margin-bottom: 10px
+		color: #fff
+	.slider-counter
+		margin-top: -40px
+	.hero-slider__main .hero-slider__subtitle
+		font-size: 1rem
+	.slider-counter .slider-counter__value span:first-child
+		font-size: 40px
+	.slider-counter__value
+		margin-left: 16px
+	.hero-slider__main
+		padding-left: 20px
+	.hero-slider__main--item
+		position: relative
+		overflow: hidden
+	.slider-counter .slider-counter__range
+		left: unset!important
+		right: -10px
+		top: 7px
+	.slider-counter .slider-counter__value span:nth-child(2)
+		line-height: 1.4
+	.slider-counter .slider-counter__value span:first-child
+		min-width: 50px
+		margin-right: 15px
+	.slider-counter
+		width: 62px!important
+		flex: unset
+	.header-logo
+		img
+			max-width: 70px
+	.header-view
+		display: none
+	header.header .col, header.header .col-lg-2
+		width: auto
+	.header-menu_icon
+		margin-left: 10px
+	.hero-slider__main
+		max-height: unset
+	.about
+		padding: 60px 0
+	.about-title
+		font-size: 1.875rem
+	.services-slider__nav--item .services-slider__image
+		width: 100%
+		height: unset
+		position: relative
+		transform: translateX(0px)!important
+	.services-slider__title
+		margin-bottom: 20px
+	.services-slider__nav--item .services-slider__content
+		width: 100%
+		margin-left: 0
+		padding: 0 15px
+	.services-slider__nav--item
+		height: unset
+		display: flex
+		flex-direction: column
+	.services-slider__nav--wrapper
+		min-height: 420px
+	.services-slider__nav--wrapper .slick-next,
+	.services-slider__nav--wrapper .slick-prev
+		top: 25%
+	.slick-prev.slick-disabled,
+	.slick-next.slick-disabled
+		opacity: 0.5!important
+	.all-services
+		margin-top: 20px
+	.services-slider__title
+		font-size: 1.875rem
+	.services-slider__link
+		margin-bottom: 30px
+	.about-col 
+		text-align: center
+		font-size: 0.875rem
+		span
+			font-size: 1.875rem
+			text-align: center
+	.about
+		.row
+			position: relative
+	.about .col-lg-6
+		position: unset
+		margin-bottom: 35px
+	.about-link
+		position: absolute
+		bottom: 180px
+	.about-partners
+		max-width: 100%
+		overflow-y: scroll
+	.about-partners ul li
+		min-width: 160px
+		text-align: center
+	.footer
+		padding-top: 60px
+	.footer-list
+		margin-bottom: 35px
+	.footer .footer-title
+		min-height: unset
+	.footer .footer-list+.footer-title
+		margin-bottom: 35px
+	.footer-logo
+		width: 54px
+		overflow: hidden
+		display: inline-block
+		position: relative
+		img
+			width: 126px
+			max-width: 126px
+	footer
+		.row:last-child
+			display: flex
+			align-items: center
+			.col-lg-3
+				width: auto
+				&:nth-child(1)
+					order: 1
+					margin-bottom: 20px
+				&:nth-child(2)
+					order: 3
+					width: 100%
+				&:nth-child(3)
+					order: 2
+					margin-bottom: 40px
+				&:nth-child(4)
+					order: 4
+					margin-bottom: 0
+					width: 100%
+	.footer .footer-company a
+		display: flex
+		max-width: 190px
+		img
+			margin-bottom: 0
+	.nav-title .nav-title__arrow
+		display: none
+		align-items: center
+		justify-content: center
+		width: 50px
+		img
+			width: 20px
+	.nav-col:nth-child(2)
+		.nav-list
+			display: none
+	.nav-wrapper
+		padding-top: 120px
+		padding-left: 50px
+		.col-lg-3
+			width: 100%
+			flex: unset
+			max-width: 100%
+	.nav-title
+		font-size: 2.1875rem
+		display: flex
+		align-items: center
+		justify-content: space-between
+	a.nav-title::after
+		display: none
+	.nav-list ul
+		margin-top: 10px
+	.jumbotron
+		height: unset
+		max-height: unset
+		padding: 130px 0 60px 0
+		.col-lg-6:first-child
+			margin-bottom: 20px
+		.col-lg-6:nth-child(2)
+			a
+				display: flex
+				align-items: center
+				justify-content: center
+				img
+					margin: 0 auto
+	h1,.h1
+		font-size: 1.875rem
+	.jumbotron-description
+		font-size: 1rem
+	.jumbotron-title
+		margin-bottom: 35px
+	.history
+		margin: 60px 0 90px
+	.management
+		height: unset
+		position: relative
+		&::after
+			content: ''
+			position: absolute
+			top: 0
+			left: 0
+			width: 100%
+			height: 100%
+			display: block
+			background-color: #1e1f20
+			opacity: 0.8
+			z-index: 0
+			transition: all .3s ease
+		.container
+			z-index: 2
+		.main-btn
+			margin-bottom: 40px
+	
+	.management-title
+		margin-bottom: 20px
+	.management-description
+		font-size: 1rem
+		max-width: 70%
+		margin-bottom: 140px
+	.management-info
+		position: absolute
+		margin-top: 0
+		bottom: 140px
+		left: 15px
+	.management .col-lg-6:last-child
+		padding-top: 0
+	.sertificates
+		margin: 60px 0
+		position: relative
+		overflow: hidden
+		.col-lg-3:first-child
+			margin-bottom: 40px	
+			font-weight: 600
+	.sertificates .col-lg-9
+		font-size: 1rem
+	.sertificates-item img
+		width: 130px
+	.sertificates-item:after
+		width: 130px
+	.sertificates-item:before
+		background-size: 40px
+	.sertificates-wrapper .slick-prev
+		left: -20px
+	.sertificates-wrapper .slick-next
+		right: -20px
+	.partners
+		min-height: unset
+		.about-link
+			bottom: 40px
+	.partners .about-title
+		margin-top: 0
+		margin-bottom: 40px
+	.partners .about-partners 
+		padding-top: 40px
+		border-top: 1px solid #737577
+		ul
+			flex-wrap: nowrap
+			li
+				margin-bottom: 0
+	.materials-list ul li, .vacancy-list ul li
+		width: 100%
+		padding-right: 0
+		a
+			line-height: 1.2
+			display: block
+	.jumbotron-bg
+		position: relative
+		min-height: 565px
+		display: flex
+		margin-top: 100px
+		margin-bottom: -60px
+	.jumbotron
+		display: flex
+		flex-direction: column-reverse
+	.jumbotron-bg__animation
+		position: relative
+		display: flex
+		align-items: center
+		justify-content: center
+		height: 100%
+		height: 565px
+		width: 100%
+		left: unset
+		img
+			height: 565px
+			width: 100%
+			object-fit: cover
+	.jumbotron-bg__image
+		top: 55px
+		left: 50%
+		transform: translateX(-50%)
+		width: 221px
+		height: 221px
+		right: unset
+		img
+			width: 221px
+			height: 221px
+			display: block
+	.jumbotron-person
+		right: unset
+		top: unset
+		left: 50%
+		bottom: 55px
+		min-width: 220px
+		transform: translateX(-50%)		
+	.materials-list, .vacancy-list
+		margin-top: 30px
+	section.vacancy
+		margin: 60px 0
+	section.vacancy .vacancy-row
+		margin-bottom: 60px
+	section.vacancy .vacancy-row__title
+		text-align: left
+		font-size: 1.45rem
+	section.vacancy .vacancy-row::before
+		display: none
+	section.vacancy .vacancy-row__info
+		flex-direction: column
+	section.vacancy .vacancy-row__info--name
+		text-align: left
+	section.vacancy .vacancy-row__info--info
+		padding-left: 20px
+		font-size: 1rem
+	.jumbotron-title
+		font-size: 1.875rem
+@media only screen and (max-width : 767px)
+	.project-slider__item
+		height: 200px
+	.main-news
+		flex-direction: column
+	.main-news__button
+		margin-bottom: 0px
+		margin-top: 20px
+		bottom: unset
+		position: relative
+	.main-news__info
+		padding-bottom: 0
+		padding: 20px
+	.projects-item
+		width: 100%
+		margin: 0 0 10px 0
+	.projects-wrapper
+		width: 100%
+		margin: 0
+		padding: 0 10px
+	.contact-form .form-group
+		width: 100%
+	.services
+		padding-top: 130px
+@media only screen and (max-width : 575px)
+	.services-wrapper
+		padding: 10px 10px 40px 10px
+	.services-box
+		flex-direction: column
+		.services-row
+			width: 100%
+			.services-item
+				height: calc(100vw - 20px)
+				margin-bottom: 10px
+				width: 100%
+				.services-item__content
+					padding: 40px 20px 30px 20px
+	.services-col
+		.services-item
+			height: calc(100vw - 20px)
+			width: 100%
+			margin-bottom: 10px
+			.services-item__content
+				padding: 40px 20px 30px 20px
+	.services-row:last-child
+		margin-top: 0
+		.services-item
+			height: calc(100vw - 20px)
+			margin-bottom: 10px
+			width: 100%
+			.services-item__content
+				padding: 40px 20px 30px 20px
+	.services-item__description
+		font-size: .8rem
+	.belcom-content .belcom-content__row
+		flex-direction: column
+	.belcom-content p
+		margin-bottom: 60px
+	.belcom-content p + .main-btn
+		margin-top: -40px
+		margin-bottom: 30px
+	.boss
+		margin: 60px 0
+	.boss-title
+		margin-bottom: 20px
+	.boss-item
+		margin-bottom: 15px
+	.nav-list ul li
+		margin-bottom: 5px
+@media only screen and (max-width : 479px)
+	.hero-slider__main .hero-slider__title
+		font-size: 1.375rem
+	.hero-slider__main .hero-slider__subtitle
+		font-size: 0.9rem
+/*==========  Mobile First  ==========*/
+
+@media only screen and (min-width : 480px)
+	/**/
+@media only screen and (min-width : 768px)
+	.boss-item
+		padding: 0 5px
+		margin-bottom: 10px
+	.boss
+		.row
+			margin: 0 -5px
+		.col-lg-12
+			padding: 0 5px
+@media only screen and (min-width : 992px)
+	/**/
+
+@media only screen and (min-width : 1200px)
+	/**/

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>БКП - БЕЛКОММУНПРОЕКТ</title>
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="icon" href="img/favicon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+        integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    	<link rel="stylesheet" href="css/custom-view.css">
+	<link rel="stylesheet" href="css/styles.min.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-lg-2">
+                    <a href="index.html" class="header-logo">
+                        <img src="img/content/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <a href="tel:+375173473442" class="header-phone">+37517 347-34-42</a>
+                    <div class="header-lang">
+                        <div class="header-lang__current">
+                            RU
+                        </div>
+                        <div class="header-lang__dropdown">
+                            <div class="header-lang__select">
+                                EN
+                            </div>
+                            <div class="header-lang__select">
+                                BY
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-view" id="specialButton">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" width="38px" height="20px" viewBox="0 0 38 20"
+                            style="overflow:visible;enable-background:new 0 0 38 20;" xml:space="preserve">
+                            <style type="text/css">
+                                .st0 {
+                                    opacity: 0.7;
+                                    fill-rule: evenodd;
+                                    clip-rule: evenodd;
+                                    fill: #FFFFFF;
+                                    enable-background: new;
+                                }
+                            </style>
+                            <defs></defs>
+                            <path id="_127_1_" class="st0"
+                                d="M19,0C11.6,0,4.6,3.4,0.2,9.3c-0.3,0.4-0.3,0.9,0,1.3c7.8,10.4,22.6,12.4,33,4.6c1.7-1.3,3.3-2.8,4.6-4.6c0.3-0.4,0.3-0.9,0-1.3C33.4,3.4,26.4,0,19,0z M19,17.6c-6.3,0-12.3-2.8-16.3-7.6c7.5-9,20.9-10.2,29.9-2.7c1,0.8,1.9,1.7,2.7,2.7C31.3,14.8,25.3,17.6,19,17.6z M19,4.7c-2.9,0-5.3,2.4-5.2,5.3c0,2.9,2.4,5.3,5.3,5.2c2.9,0,5.2-2.4,5.2-5.3C24.3,7.1,21.9,4.7,19,4.7z M19,12.9c-1.6,0-2.9-1.3-2.9-3c0-1.6,1.3-2.9,3-2.9c1.6,0,2.9,1.3,2.9,2.9C22,11.6,20.6,12.9,19,12.9z" />
+                        </svg>
+                    </div>
+                    <div class="header-menu">
+                        <div class="header-menu_icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="nav-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 nav-col">
+                        <a href="projects.html" class="nav-title">
+                            Проекты
+                            <div class="nav-title__arrow">
+                                <img src="img/layout/arrow-down.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 nav-col">
+                        <a href="services.html" class="nav-title">
+                            Услуги
+                            <div class="nav-title__arrow">
+                                <img src="img/layout/arrow-down.svg" alt="">
+                            </div>
+                        </a>
+                        <div class="nav-list">
+                            <ul>
+                                <li>
+                                    <a href="category.html">
+                                        Управление твердыми отходами
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="category.html">
+                                        Промышленное и гражданское строительство
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="category.html">
+                                        Вода
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="category.html">
+                                        Энергетика
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="category.html">
+                                        Инжениринг и консалтинг
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 nav-col">
+                        <div class="nav-title">
+                            Компания
+                            <div class="nav-title__arrow">
+                                <img src="img/layout/arrow-down.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="nav-list">
+                            <ul>
+                                <li>
+                                    <a href="about.html">
+                                        О компании
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="management.html">
+                                        Руководство
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="treatment.html">
+                                        Обращения
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="vacancy.html">
+                                        Вакансии
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="belkom.html">
+                                        Белкомтехинвест
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="prof.html">
+                                        Профсоюз
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="information.html">
+                                        Информация
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="news.html">
+                                        Новости
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 nav-col">
+                        <a href="contact.html" class="nav-title">
+                            Контакты
+                            <div class="nav-title__arrow">
+                                <img src="img/layout/arrow-down.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class=" services-title h2">
+                        Услуги
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="services-description h5">
+                        Группа по управлению проектами Всемирного банка в коммунальной сфере
+                        Республики Беларусь. Управление проектами.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services-wrapper">
+            <div class="services-box">
+                <div class="services-row">
+                    <a href="category.html" class="services-item energy">
+                        <div class="services-item__image">
+                            <img src="img/content/service3.png" alt="">
+                        </div>
+                        <div class="services-item__content">
+                            <div class="services-item__title h3">
+                                Энергетика
+                            </div>
+                            <div class="services-item__description h5">
+                                Проектирование котельных, систем и сетей теплоснабжения. Институтом разработано порядка
+                                трехсот проектов отопительных, отопительно- производственных и производственных
+                                котельных многообразного спектра по набору оборудования и тепловых мощностей.
+                            </div>
+                            <div class="services-item__btn main-btn">
+                                Подробнее
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="services-row">
+                    <a href="category.html" class="services-item building">
+                        <div class="services-item__image">
+                            <img src="img/content/service1.png" alt="">
+                        </div>
+                        <div class="services-item__content">
+                            <div class="services-item__title h3">
+                                Промышленное и
+                                гражданское
+                                строительство
+                            </div>
+                            <div class="services-item__description h5">
+                                УП «БЕЛКОММУНПРОЕКТ» имеет многолетний опыт проектирования трамвайных линий с
+                                увеличенными
+                                скоростными показателями.
+                            </div>
+                            <div class="services-item__btn main-btn">
+                                Подробнее
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="services-col">
+                <a href="category.html" class="services-item waste">
+                    <div class="services-item__image">
+                        <img src="img/content/service.png" alt="">
+                    </div>
+                    <div class="services-item__content">
+                        <div class="services-item__title h3">
+                            Управление твердыми
+                            отходами
+                        </div>
+                        <div class="services-item__description h5">
+                            В числе объектов по мусоропереработке, предприятием разработана документация и уже
+                            осуществлено строительство объекта Механико-биологическая установка по обработке твердых
+                            бытовых отходов ила и осадков сточных вод.
+                        </div>
+                        <div class="services-item__btn main-btn">
+                            Подробнее
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="services-row">
+                <a href="category.html" class="services-item consulting">
+                    <div class="services-item__image">
+                        <img src="img/content/service5.png" alt="">
+                    </div>
+                    <div class="services-item__content">
+                        <div class="services-item__title h3">
+                            Инжиниринг и
+                            консалтинг
+                        </div>
+                        <div class="services-item__description h5">
+                            Инжиниринг и консалтинг определяют возможности и решения для повышения производительности
+                            систем и оборудования, а также соответствия нормативным требованиям со ссылкой на
+                            планирование и спецификации.
+                        </div>
+                        <div class="services-item__btn main-btn">
+                            Подробнее
+                        </div>
+                    </div>
+                </a>
+                <a href="category.html" class="services-item water">
+                    <div class="services-item__image">
+                        <img src="img/content/service2.png" alt="">
+                    </div>
+                    <div class="services-item__content">
+                        <div class="services-item__title h3">
+                            Вода
+                        </div>
+                        <div class="services-item__description h5">
+                            Разработка проектов на строительство гидротехнических сооружений и гидротехнической части
+                            проектов систем водоснабжения и водоотведения.
+                        </div>
+                        <div class="services-item__btn main-btn">
+                            Подробнее
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="services.html" class="footer-title">
+                        Управление твердыми <br>
+                        отходами
+                    </a>
+                    <div class="footer-list">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Мусороперерабатывающие предприятия
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Полигоны твердых отходов
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Биогаз
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Компостирование
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <a href="services.html" class="footer-title">
+                        Промышленное и гражданское
+                        строительство
+                    </a>
+                    <div class="footer-list">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Генеральный план
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Автомобильные дороги
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Благоустройство территории
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Электротранспорт
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <a href="services.html" class="footer-title">
+                        Вода
+                    </a>
+                    <div class="footer-list">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Водоснабжение
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Управление сточными водами
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Гидротехнические сооружения
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Водоподготовка
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Водопонижение
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <a href="services.html" class="footer-title">
+                        Энергетика
+                    </a>
+                    <div class="footer-list">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    ВИЭ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Котельные и тепловые сети
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Отопление и вентиляция
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="services.html" class="footer-title">
+                        Инжениринг и консалтинг
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="index.html" class="footer-logo">
+                        <img src="img/content/Logo-footer.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-company">
+                        <a href="">
+                            <img src="img/layout/file_pdf.svg" alt="">
+                            Скачать реквизиты компании
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-socials">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="img/layout/facebook.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="img/layout/google.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="img/layout/twitter.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+				<div class="col-lg-3">
+					<a href="" class="footer-studio" target="_blank">
+						<img src="img/layout/studio.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="loader">
+		<div class="loader-inner">
+			<div class="loader-image">
+				<img src="img/animation/preloader-bkp.gif" alt="">
+			</div>
+		</div>
+	</div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/custom-view.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>
